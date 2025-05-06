@@ -1,4 +1,5 @@
 streamlit>=1.34
-scikit-learn        # joblib ставится в составе sklearn, но лучше указать явно
+scikit-learn
 joblib
 numpy
+pandas            #  ◀︎ new
