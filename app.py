@@ -62,7 +62,7 @@ with st.sidebar:
 
 # ---------- Кэш-загрузка модели --------------------------------
 @st.cache_resource(show_spinner=False)
-def load_model(model_path: str = "rs1.pkl"):
+def load_model(model_path: str = "rs2.pkl"):
     return joblib.load(Path(__file__).parent / model_path)
 
 # ---------- Формирование признаков -----------------------------
