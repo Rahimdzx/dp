@@ -8,7 +8,7 @@ pip install streamlit scikit-learn joblib numpy
 streamlit run app.py
 ```
 
-Убедитесь, что **heart_disease_model.pkl** (сохранённая модель SVM‑Pipeline)
+Убедитесь, что **rs2.pkl** (сохранённая модель SVM‑Pipeline)
 находится в той же папке, что и `app.py`.
 
 ## Как обучить и сохранить модель
