@@ -72,7 +72,7 @@ def build_features():
 
 # ---- Подгружаем модель один раз --------------------------------------
 @st.cache_resource(show_spinner=False)
-def load_model(path: str = "rs.pkl"):
+def load_model(path: str = "rs1.pkl"):
     return joblib.load(path)
 
 if predict_btn:
